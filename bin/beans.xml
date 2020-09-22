@@ -9,7 +9,8 @@
         https://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
-<bean id="heartLess" class= "com.ansul.thakur.Heart"></bean>	
+<bean id="heart" class= "com.ansul.thakur.Heart"/>	
+<bean id="octopousHeart" class= "com.ansul.thakur.Heart"/>	
 				
 <bean id="human" class = "com.ansul.thakur.Human" >
 	
