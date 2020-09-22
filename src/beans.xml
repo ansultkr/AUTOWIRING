@@ -7,7 +7,7 @@
 
 <bean id="heartLess" class= "com.ansul.thakur.Heart"></bean>	
 				
-<bean id="human" class = "com.ansul.thakur.Human" autowire="byType">
+<bean id="human" class = "com.ansul.thakur.Human" autowire="constructor">
 	
 </bean>
 
