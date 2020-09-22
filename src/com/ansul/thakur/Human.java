@@ -17,6 +17,7 @@ public class Human {
 		System.out.println("Human Constructor is getting called whicha has Heart as argument");
 	}
 	@Autowired
+	@Qualifier("octopousHeart")
 	public void setHeart(Heart heart) {
 		this.heart = heart;
 		System.out.println("Setter Mathod Called! @Autowiring byName");
